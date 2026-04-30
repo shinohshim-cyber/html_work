@@ -1,0 +1,55 @@
+.container {
+  width: 600px;
+  margin: 10px auto;
+}
+
+fieldset {
+  border-style: none;
+  list-style: none;
+  margin-bottom: 0px;
+  font-weight: bold;
+  padding-bottom: 0;
+}
+
+.person-info {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.part {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+ul {
+  margin-top: 0;
+  margin-bottom: 0px;
+  list-style: none;
+  padding-left: 40px;
+  font-weight: normal;
+}
+
+ul li {
+  display: flex;
+  align-items: center;
+}
+
+li {
+  margin-bottom: 0;
+  padding: 0;
+}
+
+li label {
+  line-height: 30px;
+  margin-left: 5px;
+  margin-right: 10px;
+}
+
+#memo {
+  margin-top: 10px;
+}
+
+.buttons {
+  margin-top: 0;
+  margin-left: 15px;
+}
