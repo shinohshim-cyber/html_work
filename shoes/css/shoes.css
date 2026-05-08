@@ -127,13 +127,64 @@ textarea {
   margin-bottom: 50px;
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
+  text-align: center;
 }
 
 .product-container div {
   /*float: left;*/
-  width: 25%;
+  flex: 1 1 25%;
+  /*width: 25%;*/
+  padding: 10px;
   text-align: center;
 }
+.product-container i {
+  background-color: burlywood;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  padding-top: 35px;
+  box-sizing: border-box;
+  color: white;
+  margin: 20px auto 10px auto;
+}
+
+/* 신발 진열 처리 */
+.shop-bg {
+  background-color: #eee;
+  padding: 20px;
+}
+
+.shop-container {
+ display: flex; 
+ width: 90%;
+ margin: auto;
+}
+
+.shop-item {
+  width: 33%;
+  padding: 10px;  
+}
+
+.shop-item img {
+  width: 100%;
+  display: block;
+}
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.5);
+  opacity: 0;
+  transition: all 1s;
+}
+
+.overlay:hover {
+  opacity: 1;
+}
+
+
 
 /* 미디어쿼리 : 위치는 보통 css의 맨 마지막에위치 */
 /* 현재 브라우저 폭이 1200px 기준으로 이하 될 경우 */
